@@ -1,0 +1,464 @@
+/*container-fixed é código de todos os containers*/
+.container-fixed{
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+/*css do NAVBAR*/
+.titles{
+    padding-top: 200px;
+}
+
+.container-first{
+    background-image: url("/resources/img/01.jpg");
+    @extend .container-fixed;
+}
+
+.logo{
+    margin-top: 15px;
+    margin-left: auto;
+}
+
+.nav-item a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color:#f8f9fa;
+}
+
+.nav-item a:hover{
+    text-decoration: none;
+}
+
+/*--------------------------------------------------*/
+
+.title-1, .title-2, .title-3, .title-4{
+    @extend .titles;
+}
+
+.button-saiba-mais{
+    margin-top: 60px;
+    padding: 15px;
+}
+
+.seta{
+    width: 6%;
+}
+
+.container-second{
+    background-image: url("/resources/img/03.jpg");
+    @extend .container-fixed;
+}
+
+.container-third{
+    background-image: url("/resources/img/02.gif");
+    @extend .container-fixed;
+}
+
+.container-fourth{
+    background-image: url("/resources/img/04.jpg");
+    @extend .container-fixed;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    min-height: 15vh;
+}
+
+.text-footer{
+    padding-top: 45px;
+    font-size: 12px;
+    color: #555252;
+}
+
+
+.rede-footer {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.rede-footer:hover{
+    text-decoration: none;
+    color: #b9b9b9;
+}
+
+#text-link{
+    color:#f8f9fa;
+    font-weight: bold;
+}
+
+
+/*--------------------------------------------------*/
+
+
+.container-first-falcon{
+    background-image: url("/resources/img/falcon9/01.jpg");
+    @extend .container-fixed;
+}
+
+.title-primary{
+    font-size: 90px;
+    font-weight: bold;
+}
+
+.title-falcon{
+    @extend .titles;
+}
+
+.container-second-falcon{
+    background-color: black;
+    padding-bottom: 30px;
+}
+
+.title-2-falcon{
+    padding-top: 70px;
+    color: white;
+    font-weight: bold;
+}
+
+.container-third-falcon{
+    background-image: url("/resources/img/falcon9/02.jpg");
+    @extend .container-fixed; 
+}
+
+.title-3-falcon, .title-5-falcon{
+    @extend .titles;
+    width: 670px;
+    font-size: 22px;
+    margin-left: 220px;
+}
+
+.carrossel-title{
+    text-align: left;
+}
+
+.carrossel-title-sm{
+    text-align: left;
+    font-weight: normal;
+}
+
+.table{
+    color: white;
+    margin-bottom: 220px;
+    font-size: 14px;
+    width: 420px;
+
+    th{
+        text-align: left;
+        padding-bottom: 9px;
+    }
+}
+
+.title2{
+    margin-bottom: 420px; 
+}
+
+.title-4-falcon, .subtitle-5-falcon{
+    width: 450px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.falcon-pad{
+    margin-top: 50px;
+}
+
+.container-fourth-falcon{
+    background-image: url("/resources/img/falcon9/08.jpg");
+    @extend .container-fixed; 
+}
+
+.right-table{
+    text-align: right;
+}
+
+.div-text{
+    width: 70%;
+    background-color: black;
+    padding: 0%;
+    margin-bottom: 20px;
+}
+
+#img-carousel{
+    max-height: 100vh;   
+}
+
+#txt-carousel{
+    margin-bottom: 0px;
+}
+
+.guia{
+    background-color: black;
+    min-height: 85vh;
+}
+
+.label-guia{
+    padding-top: 15%;
+}
+
+.label-guia a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.label-guia a:hover{
+    text-decoration: none;
+    color:rgb(188, 182, 173);
+}
+
+.btn-guia{
+    font-size: 15px;
+    padding: 20px;
+    margin: 5px;
+}
+
+/*--------------------------------------------------*/
+
+
+.container-first-space{
+    background-image: url("/resources/img/humanFlight/01.jpg");
+    @extend .container-fixed;
+
+    h1{
+        font-size: 120px;
+        font-weight: normal;
+    }
+
+    h5{
+        font-weight: normal;
+        font-size: 35px;
+    }
+}
+
+.container-space{
+    background-color: black;
+}
+
+.label-space{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    font-size: 20px;
+}
+
+.container-space-second{
+    background-image: url("/resources/img/humanFlight/02.jpg");
+    @extend .container-fixed;
+
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h5{
+        font-weight: normal;
+        font-size: 15px;
+    }
+}
+
+.btn-explorar{
+    padding: 15px 40px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.label-space-second, .label-space-fourth{
+    margin-left: 55%;
+    margin-top: 35px;
+}
+
+.container-space-third{
+    background-image: url("/resources/img/humanFlight/03.jpg");
+    @extend .container-fixed;
+
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h5{
+        font-weight: normal;
+        font-size: 15px;
+    }
+}
+
+.label-space-third, .label-space-fifth{
+    margin-left: 5%;
+}
+
+.container-space-fourth{
+    background-image: url("/resources/img/humanFlight/04.jpg");
+    @extend .container-fixed;
+
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h5{
+        font-weight: normal;
+        font-size: 15px;
+    }
+}
+
+.container-space-fifth{
+    background-image: url("/resources/img/humanFlight/05.jpg");
+    @extend .container-fixed;
+
+    h1{
+        font-size: 60px;
+        font-weight: bold;
+    }
+
+    h5{
+        font-weight: normal;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 928px){
+    .title-3-falcon{
+        margin-left: 50px;
+        padding-right: 10%;
+        max-width: 90%;
+    }
+
+    .title-5-falcon{
+        margin-left: 15px;
+        max-width: 90%;
+        table{
+            max-width: 80%;  
+        }
+    }
+}
+
+@media (max-width: 722px){
+    .title-5-falcon{
+        margin-left: 3px;
+        max-width: 90%;
+    }
+    .title-3-falcon{
+        margin-left: 3px;
+    }
+
+    .subtitle-5-falcon{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 415px){
+    .title-3-falcon{
+        margin-left: 3px;
+        padding-top: 10px;       
+    }
+}
+
+@media (max-width: 360px){
+    .title-primary{
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 320px){
+    .title-primary{
+        font-size: 45px;
+    }
+
+    .title-3-falcon{
+        font-size: 17px;
+        padding-top: 10px;
+    }
+
+    .title-5-falcon{
+        margin-left: 3px;
+        max-width: 90%;
+        padding-top: 50px;
+        table{
+            max-width: 230px;  
+        }
+    }
+}
+
+/*--------------------------------------------------*/
+
+
+@media (max-width: 2176px){
+    .title-primary{
+        font-size: 100px;
+    }
+}
+
+@media (max-width: 1622px){
+    .label-space-second{
+        margin-left: 45%;
+    }
+}
+
+@media (max-width: 1226px){
+    .label-space-second{
+        margin-left: 35%;
+    }
+}
+
+@media (max-width: 886px){
+    .label-space-second{
+        margin-left: 25%;
+    }
+
+    .label-space-fourth{
+        margin-left: 35%;        
+    }
+
+    .title-falcon{
+
+        h1{
+            font-size: 60px;
+        }
+
+    }
+}
+
+@media (max-width: 415px){
+    .label-space-second{
+        margin-left: 5%;
+        max-width: 296px;
+    }
+
+    .label-space-third{
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 441px){
+    .title-falcon{
+
+        h1{
+            font-size: 45px;
+        }
+
+        h5{
+            font-size: 25px;  
+        }
+
+    }
+}
+
+@media (max-width: 319px){
+    .title-falcon{
+
+        h1{
+            font-size: 25px;
+        }
+
+        h5{
+            font-size: 20px;  
+        }
+
+    }
+}
